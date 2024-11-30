@@ -24,4 +24,4 @@ build-backend = "pdm.backend"
 distribution = true
 
 [project.scripts]
-demo = "viz_demo.app:main"
+viz-demo = "viz_demo.app:main"

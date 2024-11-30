@@ -20,7 +20,7 @@ These instructions assume that you haven't already installed Python or other dev
 3. Use Git to clone this repository to your local machine.
   * Open Mac *Terminal* or Windows *PowerShell*.
   * Navigate to the folder where you keep your Git repositories.
-  * Run `git clone 
+  * Run `git clone https://github.com/irs1318dev/irs-viz-demo.git`
 4. Download and install Python
   * Download and install Python version 3.12.
   * You can download the appropriate version of Python for your operating
@@ -40,3 +40,11 @@ These instructions assume that you haven't already installed Python or other dev
 7. Install all required dependencies. 
   * Navigate to the root folder of the repository that you cloned in step #3 in Mac *Terminal* or *VS Code*
   * Run `pdm install`
+
+  ## Running the Demo Application
+1. Activate that virtual environemnt that PDM just created.
+  * From the repository root folder, run `.\.venv\Scripts\activate.ps1 `
+    (Windows) or `source .venv\bin\activate` (Mac or Linux).
+2. Run the command `viz-demo`.
+  * Find the URL for the web application in the program output. Paste it into
+    a web browser.
