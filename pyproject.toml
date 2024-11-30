@@ -1,0 +1,27 @@
+[project]
+name = "irs-viz-demo"
+version = "1.0.0"
+description = "Simple Dash-Plotly application."
+authors = [
+    {name = "irwinsnet", email = "stacy.k.irwin@gmail.com"},
+]
+dependencies = [
+    "pandas>=2.2.3",
+    "dash>=2.18.2",
+    "plotly>=5.24.1",
+    "pyarrow>=18.1.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[project.scripts]
+demo = "viz_demo.app:main"
